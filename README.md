@@ -1,9 +1,9 @@
 # EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
 
-DATE: 01-03-2024
-NAME: HARINI B.
-ROLL NO :212221230035
-DEPARTMENT: ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+## DATE: 01-03-2024
+## NAME: HARINI B.
+## ROLL NO :212221230035
+## DEPARTMENT: ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
 
 ## AIM: 
 To interface an FSR(force sensitive resistor) and scale the output voltage obtained to pressure applied 
@@ -48,10 +48,10 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 ### FIGURE-03 CIRCUIT DIAGRAM
 
+![DIAGRAM](https://github.com/HariniBaskar/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/93427253/433104e9-fc89-4452-a02d-b6d0daa55bb8)
+
 ### SCHEMATIC DIAGRAM:
 ![SCHEMATIC EXP3](https://github.com/HariniBaskar/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/93427253/ebbec57b-647e-440d-b8e8-4e277f66fa2f)
-
-![DIAGRAM](https://github.com/HariniBaskar/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/93427253/19cdef3f-ce04-41fc-934a-c0b020bb371e)
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -116,8 +116,10 @@ N is the total number of values
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
 ### CALCULATION:
-μ = (1.05 + 2.05 + 3.09 + 4.03 + 5.09 + 6.12 + 7.09 + 8.12 + 9.22 + 10) / 10 = 5.586        
+μ = (1.05 + 2.05 + 3.09 + 4.03 + 5.09 + 6.12 + 7.09 + 8.12 + 9.22 + 10) / 10 = 5.586   
+
 σ = √[(2- 5.586)^2 + (3 - 5.586)^2 + ... + (10- 5.586)^2)]/10
+
 σ = √(0.902+9+16+25+36+49+64+64+81+100)/10 = 444.9025
 
 
